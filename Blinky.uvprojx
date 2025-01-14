@@ -473,6 +473,11 @@
               <FileType>1</FileType>
               <FilePath>.\Blinky.c</FilePath>
             </File>
+            <File>
+              <FileName>Thread_LED2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Thread_LED2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -1034,6 +1039,11 @@
               <FileName>Blinky.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Blinky.c</FilePath>
+            </File>
+            <File>
+              <FileName>Thread_LED2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Thread_LED2.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1666,6 +1676,11 @@
               <FileType>1</FileType>
               <FilePath>.\Blinky.c</FilePath>
             </File>
+            <File>
+              <FileName>Thread_LED2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Thread_LED2.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -2089,6 +2104,11 @@
               <FileName>Blinky.c</FileName>
               <FileType>1</FileType>
               <FilePath>.\Blinky.c</FilePath>
+            </File>
+            <File>
+              <FileName>Thread_LED2.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\Thread_LED2.c</FilePath>
             </File>
           </Files>
         </Group>

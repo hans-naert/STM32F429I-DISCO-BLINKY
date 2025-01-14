@@ -35,6 +35,8 @@
 #include "Board_LED.h"                  // Board Support:LED
 #include "Board_Buttons.h"              // Board Support:Buttons
 
+int Init_Thread_LED2 (void);
+
 static osThreadId_t tid_thrLED;         // Thread id of thread: LED
 static osThreadId_t tid_thrBUT;         // Thread id of thread: BUT
 
@@ -93,6 +95,8 @@ void app_main (void *argument) {
 
   tid_thrBUT = osThreadNew (thrBUT, NULL, NULL);  // Create BUT thread
   if (tid_thrBUT == NULL) { /* add error handling */ }
+	
+	Init_Thread_LED2();
 
   osThreadExit();
 }

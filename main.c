@@ -39,6 +39,7 @@
 
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdio.h>
 
 #ifdef RTE_CMSIS_RTOS2_RTX5
 /**
@@ -87,6 +88,7 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority) {
 /* Private function prototypes -----------------------------------------------*/
 static void SystemClock_Config(void);
 static void Error_Handler(void);
+void usart_init();
 
 /* Private functions ---------------------------------------------------------*/
 /**
@@ -115,6 +117,8 @@ int main(void)
 
   /* Add your application code here
      */
+	usart_init();
+	printf("Hello World\n");
 
 #ifdef RTE_CMSIS_RTOS2
   /* Initialize CMSIS-RTOS2 */

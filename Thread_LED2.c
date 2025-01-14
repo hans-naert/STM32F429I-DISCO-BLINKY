@@ -1,6 +1,6 @@
 #include "cmsis_os2.h"                          // CMSIS RTOS header file
 #include "Board_LED.h" 
- 
+#include <stdio.h> 
 /*----------------------------------------------------------------------------
  *      Thread 1 'Thread_Name': Sample thread
  *---------------------------------------------------------------------------*/
@@ -20,7 +20,10 @@ int Init_Thread_LED2 (void) {
 }
  
 void Thread_LED2 (void *argument) {
- 
+  int delay;
+	printf("Give the toggle delay in milliseconds\n");
+	scanf("%d",&delay);
+	
   while (1) {
     ; // Insert thread code here...
 		 LED_On (1U);                                // Switch LED on
